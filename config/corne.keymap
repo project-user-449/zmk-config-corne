@@ -12,56 +12,73 @@
         compatible = "zmk,combos";
 
         escape {
+            timeout-ms = <30>;
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
         };
 
         tab {
+            timeout-ms = <30>;
             bindings = <&kp TAB>;
             key-positions = <2 3>;
         };
 
         ctrl+s {
+            timeout-ms = <30>;
             bindings = <&kp LC(S)>;
             key-positions = <13 14>;
         };
 
         ctrl+z {
+            timeout-ms = <30>;
             bindings = <&kp LC(Z)>;
             key-positions = <25 26>;
         };
 
         ctrl+c {
+            timeout-ms = <30>;
             bindings = <&kp LC(C)>;
             key-positions = <26 27>;
         };
 
         ctrl+v {
+            timeout-ms = <30>;
             bindings = <&kp LC(V)>;
             key-positions = <27 28>;
         };
 
         minus {
+            timeout-ms = <30>;
             bindings = <&kp MINUS>;
             key-positions = <19 20>;
         };
 
         plus {
+            timeout-ms = <30>;
             bindings = <&kp PLUS>;
             key-positions = <20 21>;
         };
 
         apostrophe {
+            timeout-ms = <30>;
             bindings = <&kp SQT>;
             key-positions = <7 8>;
         };
 
         quotes {
+            timeout-ms = <30>;
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <8 9>;
         };
     };
 
+&mt {
+    tapping-term-ms = <210>;
+};
+
+&lt {
+    tapping-term-ms = <210>;
+};
     keymap {
         compatible = "zmk,keymap";
 
