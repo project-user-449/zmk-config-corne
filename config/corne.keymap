@@ -72,10 +72,6 @@
         };
     };
 
-    &mt { tapping-term-ms = <210>; };
-
-    &lt { tapping-term-ms = <210>; };
-
     keymap {
         compatible = "zmk,keymap";
 
