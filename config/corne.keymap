@@ -120,10 +120,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp GRAVE     &kp LS(GRAVE)  &trans    &trans  &bootloader    &trans   &kp LG(LEFT_ARROW)  &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &trans  &none
-&none  &kp CAPSLOCK  &trans         &trans    &trans  &trans         &trans   &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans  &none
-&none  &kp PIPE      &trans         &trans    &trans  &trans         &trans   &trans              &trans          &trans               &trans  &none
-                                    &kp LGUI  &trans  &kp SPACE      &kp RET  &trans              &kp RALT
+&none  &kp GRAVE     &kp LS(GRAVE)  &trans    &trans  &bootloader    &trans   &kp LG(LC(LEFT_ARROW))  &kp UP_ARROW    &kp LG(LC(RIGHT_ARROW))  &trans  &none
+&none  &kp CAPSLOCK  &trans         &trans    &trans  &trans         &trans   &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans  &none
+&none  &kp PIPE      &trans         &trans    &trans  &trans         &trans   &trans                  &trans          &trans                   &trans  &none
+                                    &kp LGUI  &trans  &kp SPACE      &kp RET  &trans                  &kp RALT
             >;
         };
 
